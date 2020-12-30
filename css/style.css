@@ -1,0 +1,26 @@
+.card-header{
+    background-color: grey;
+}
+
+.card{
+    max-width: 900px;
+}
+
+.card-footer{
+    background-color: grey;
+}
+
+a.delete-item {
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 670px){
+    #colt{
+        margin-top: 10px;
+    }
+    #courgroup{
+        margin-bottom: -10px;
+    }
+
+
+}

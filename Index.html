@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <style>
+        #response{
+            display: none;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>s
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+</head>
+<body>
+<body class="bg-dark">
+<div class="card mx-auto mt-5">
+<div class = "card-header"> GPA Calculator </div>
+<div class="card-body">
+    <div class="row">
+        <div class="col-sm">
+            <form id = "GPA-Form">
+            <div class="form-group" id = "logic">
+                <label for="InputcourseCode">Course Code</label>
+                <input type="text" class="form-control comfort" id="Coursecode"
+                 aria-describedby = "coursehelp" placeholder="Input Course Code"> 
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="InputCourseUnit">Course Unit</label>
+                <select class="form-control selector" id = "exampleInputCourseUnit">
+                    <option value = "">Select The Course Unit</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                </select>
+                </div>
+                </div>
+                <div class="col-sm" id="courgroup">
+                    <div class="form-group">
+                        <label for="InputCourseGrade">Course Grade</i></label>
+                        <select class="form-control selection" id = "Select">
+                            <option value= "">Select The Course Grade</option>
+                            <option value="5">A</option>
+                            <option value ="4">B</option>
+                            <option value="3">C</option>
+                            <option value ="2" >D</option>
+                            <option value = "1">F</option>
+                        </select>
+                        </div>
+                        </div>
+    </div>
+    <div class="blob">
+
+    </div>
+    <div class="row" style="margin-top: 30px;">
+        <div class="col">
+                <input type="submit" value="Add Course" class="btn btn-primary">
+                <button type ="button" id = "tokyo" class="btn btn-primary">Calculate GPA </button>
+    </div>
+</div>
+
+<div id = "response" class="pt-4">
+    <h2 id = "slim">Results</h5>
+        <h4 id = "sicko"></h3>
+        <h4 id = "smoke"></h4>
+</div>
+        </div>
+    </form>
+        <div class="card-footer text-center">
+            GPA 
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+
+
+
+
+
+<script src="/js/app.js"></script>
+<script src="/js/jquery-3.4.1.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.js"></script>    
+</body>
+</html>
